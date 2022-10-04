@@ -44,7 +44,7 @@ fillcolour = ["red", "orange", "yellow", "green", "blue"]
 
 
 colour_get=StringVar()
-colour=ttk.Combobox(root,textvariable=colour_get,values=fillcolour)
+colour=ttk.Combobox(root,textvariable=colour_get,values=fillcolour, state = "readonly")
 
 label5 = Label(root, text = "Choose Colour", bg = "#b7410e", fg = "#30D5C8", font = ("Fixedsys", 10))
 label5.place(relx=0.68,rely=0.85,anchor=CENTER)
